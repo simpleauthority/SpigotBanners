@@ -29,8 +29,8 @@ dependencies {
 	implementation("org.springframework.cloud:spring-cloud-starter-openfeign")
 	implementation("com.github.ben-manes.caffeine:caffeine:3.1.8")
 	implementation("org.mariadb.jdbc:mariadb-java-client:3.4.1")
-	implementation("org.flywaydb:flyway-mysql:10.16.0")
-	implementation("org.flywaydb:flyway-core:10.16.0")
+	implementation("org.flywaydb:flyway-mysql:10.22.0")
+	implementation("org.flywaydb:flyway-core:10.22.0")
 	implementation("io.jsonwebtoken:jjwt-api:0.12.6")
 	implementation("com.github.xMrAfonso:Hangar4J:1.2.3") {
 		exclude(group = "com.google.code.gson", module = "gson")
